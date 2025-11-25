@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-text); /* Текст для контраста */
+    color: var( --color-secondary); /* Текст для контраста */
 }
 
 h1, h2, h3, h4 {
@@ -248,7 +248,7 @@ h1, h2, h3, h4 {
     }
 
     .nav__link:hover {
-         color: var(--color-primary); /* Синий */
+         color: var(--color-secondary); /* Синий */
     }
 
     .nav__link--cta {
@@ -470,6 +470,10 @@ h1, h2, h3, h4 {
     background-color: var(--color-secondary); /* Оранжевый */
     color: var(--color-white);
     box-shadow: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .cookie-popup__button:hover {
